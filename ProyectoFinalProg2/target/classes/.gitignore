@@ -1,0 +1,7 @@
+/beans/
+/dao/
+/entity/
+/hibernate.cfg.xml
+/impl/
+/log4j.properties
+/util/
