@@ -22,6 +22,7 @@ public class AuditBean {
 	}
 
 	public DataModel getListarAuditoria() {
+		
 		List<Audit> lista = new AuditDaoImpl().list();
 		listaAuditoria = new ListDataModel(lista);
 		return listaAuditoria;
